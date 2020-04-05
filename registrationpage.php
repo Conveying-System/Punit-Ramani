@@ -27,3 +27,10 @@ include("header.php");
 </form>
 
 </form>
+  </div>
+</div>
+
+<?php
+include("footer.php");
+?>
+</body></html>
