@@ -49,4 +49,13 @@
 <h4>CORPORATE SERVICES</h4>
 <p>Corporate Services Department is home to a multitude of disciplines - providing insights and expertise on a daily basis to Trans.</p>
 </div>
+   </div>
+</div>
+<div style="position:absolute;top:179%;text-align:center;left:40%;">
+<?php
+include("footer.php");
+?>
+</div>
+</body>
+</html>
 
