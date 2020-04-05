@@ -1,0 +1,21 @@
+<?php
+$status=1;
+include("ConnectDb.php");
+if(isset($_POST["SignInButton"]))
+{
+$uname=$_POST["UserName"];
+$upassword=$_POST["Password"];
+$s="select * from customer where UserName='".$uname."'";
+$resultset=mysqli_query($con,$s);
+$data=mysqli_fetch_assoc($resultset);
+session_start();
+if($data["Password"]==$upassword)
+	{
+    $_SESSION["UserName"]=$data["UserName"];
+	header("location:customerdashboard.php");
+	}
+	else
+	//header("location:Error.php");
+	$status=0;
+}
+?>
