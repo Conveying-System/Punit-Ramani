@@ -18,3 +18,8 @@
     <li><a href="contact.php">CONTACTS</a></li>
   </ul>
 </div>
+   <div class="center" style="margin:1px;">OUR_SERVICES
+<hr width="70%"style=color:white;>
+</div>
+  <div class="center2" style="top:60%;">
+    <p style=color:white;>
