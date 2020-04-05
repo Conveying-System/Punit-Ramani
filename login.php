@@ -27,6 +27,17 @@ if($data["Password"]==$upassword)
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+	if($status==0)
+echo "<font  size='3' color='red'>Invalid User Name Or Password</font>";
+?>
+</div>
+</form>
+</div>
+</div>
+<?php
+include("footer.php");
+?>
+</body></html>
 <div class="center" style= text-align:center; >
 <form method="post" action="<?php $_PHP_SELF ?>">
 <h5  style="margin:5px;">Login Form</h5>
