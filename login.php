@@ -27,6 +27,16 @@ if($data["Password"]==$upassword)
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="center" style= text-align:center; >
+<form method="post" action="<?php $_PHP_SELF ?>">
+<h5  style="margin:5px;">Login Form</h5>
+<img src="img_avatar2.png" height=150px width=150px  style="margin:5px;">
+<div><input style="margin:5px;" placeholder="Enter Email" type="email" name="UserName"></div>
+<div><input placeholder="Enter Password" type="password" name="Password"></div>
+<div><input class="sub" type="submit" value="Sign In" name="SignInButton"></div>
+<div>
+<?php
+	
 <div class="container">
 <?php
 include("header.php");
