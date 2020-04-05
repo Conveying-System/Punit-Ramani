@@ -14,3 +14,9 @@ else
 {
     die("password incorrect");
 }
+$check=mysqli_query($con,$sqldata);
+if($check!=0)
+header("location:login.php");
+else
+echo "unable to save";
+?>
